@@ -109,10 +109,7 @@
         ./images/mark-guerrero.jpg  1x,
         ./images/mark-guerrero-2x.jpg 2x"
         src="./images/mark-guerrero.jpg" 
-     alt="Mark Guerrero" 
-     width="264"
-     height="260"
-   />
+     alt="Mark Guerrero" />
     <div class="wrap-info">
         <h3 class="list-item-title">Mark Guerrero</h3>
     <p class="team-text">Product Designer</p>
@@ -157,11 +154,10 @@
     </li>
     <li class="team-item">
         <img class="team-img" 
-        srcset="./images/tom-ford.jpg 1x",
+        srcset="./images/tom-ford.jpg 1x,
         ./images/tom-ford-2x.jpg 2x"
         src="./images/tom-ford.jpg" 
-        alt="Tom Ford" width="264"
-         height="260" />
+        alt="Tom Ford" />
         <div class="wrap-info">
             <h3 class="list-item-title">Tom Ford</h3>
         <p class="team-text">Frontend Developer</p>
@@ -204,7 +200,11 @@
 </div>
     </li>
     <li class="team-item">
-        <img class="team-img" src="./images/camila-garcia.jpg" alt="Camila Garcia" width="264" height="260" />
+        <img class="team-img" 
+         srcset="./images/camila-garcia.jpg 1x,
+         ./images/camila-garcia-2x.jpg  2x"
+        src="./images/camila-garcia.jpg" 
+        alt="Camila Garcia"/>
           <div class="wrap-info">
             <h3 class="list-item-title">Camila Garcia</h3>
           <p class="team-text">Marketing</p>
@@ -247,7 +247,11 @@
         </div>
     </li>
     <li class="team-item">
-        <img class="team-img" src="./images/daniel-wilson.jpg" alt="Daniel Wilson" width="264" height="260" />
+        <img class="team-img"
+         srcset="./images/daniel-wilson.jpg 1x,
+         ./images/daniel-wilson-2x.jpg  2x"
+         src="./images/daniel-wilson.jpg"
+         alt="Daniel Wilson"/>
        <div class="wrap-info">
        <h3 class="list-item-title">Daniel Wilson</h3>
         <p class="team-text">UI Designer</p> 
@@ -303,18 +307,23 @@
         <div class="portfolio-cover-wrap">
 
 
-        <!-------<picture>
-            <source srcset="./images/case-1-desc.jpg 1x, ./images/case-1-desc-2x.jpg 2x" media="(min-width: 1158px)" />
+        <picture>
+            <source srcset="./images/case-1-desc.jpg 1x, 
+            ./images/case-1-desc-2x.jpg 2x" 
+            media="(min-width: 1158px)" />
             <source srcset="
-                          ./images/case-1-tab.jpeg    1x,
-                          ./images/case-1-tab-2x.jpeg 2x
+                          ./images/case-1-tab.jpg    1x,
+                          ./images/case-1-tab-2x.jpg 2x
                         " media="(min-width: 768px)" />
             <source srcset="
-                          ./images/case-1-mob.jpeg    1x,
-                          ./images/case-1-mob-2x.jpeg 2x
+                          ./images/case-1-mob.jpg    1x,
+                          ./images/case-1-mob-2x.jpg 2x
                         " media="(max-width: 767px)" />
-            <img class="portfolio-img" src="./images/case-1-desc.jpg" alt="Banking App" width="360" height="300" />
-        </picture>----->
+            <img class="portfolio-img" 
+            src="./images/case-1-desc.jpg" 
+            alt="Banking App" width="360" 
+            height="300" />
+        </picture>
 
 
 
@@ -332,6 +341,28 @@
     </li>
     <li class="portfolio-item">
 <div class="portfolio-cover-wrap">
+
+<picture>
+    <source srcset=" ./images/cashless-payment-1-desc.jpg 1x, 
+            ./images/cashless-payment-1-desc-2x jpg 2x" media="(min-width: 1158px)" />
+    <source srcset="
+                          ./images/cashless-payment-1-tab.jpg    1x,
+                          ./images/cashless-payment-1-tab-2x.jpg 2x
+                        " media="(min-width: 768px)" />
+    <source srcset="
+                          ./images/cashless-payment-1-mob.jpg    1x,
+                          ./images/cashless-payment-1-mob-2x.jpg 2x
+                        " media="(max-width: 767px)" />
+    <img class="portfolio-img"
+     src="./images/case-1-desc.jpg" 
+     alt="Banking App"
+     width="360" 
+     height="300" />
+</picture>
+
+
+
+
         <img class="portfolio-img" src="./images/cashless-payment.jpg" alt="Cashless Payment" width="360" height="300" />
             <p class="portfolio-cover-text">
                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
